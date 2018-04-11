@@ -24,7 +24,7 @@ public class Record {
 		int len = activities.length - 1;
 		
 		for (int i = 0; i < len; ++i)
-			result += activities[i] + ", ";
+			result += activities[i] + ",";
 		result += activities[len];
 		
 		return result;

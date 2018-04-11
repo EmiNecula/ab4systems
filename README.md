@@ -1,1 +1,10 @@
 # ab4systems
+
+Presupuneri:
+Datele sunt citite dintr-un fisier de intrare primit ca parametru.
+Fisierul de intrare nu are linii goale, iar fiecare linie este scrisa corect (nu se face verificare input-ului).
+Formatul fisierului de intrare poate fi dedus usor din fisierul "test1.txt".
+
+Bonus:
+Clasa "Location" este creata special pentru a putea fi adaugate noi tipuri de localitati.
+In plus, datorita modului de ierarhizare (1, 1.1, 1.1.1, ...), noi nivele pot fi introduse oricand in ierarhie.

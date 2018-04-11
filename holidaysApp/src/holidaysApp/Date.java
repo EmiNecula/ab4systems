@@ -21,9 +21,21 @@ public class Date {
 	
 	@Override
 	public String toString() {
-		return Integer.toString(day) + "." +
-				Integer.toString(month) + "." +
-				Integer.toString(year);
+		String dayS, monthS, yearS;
+		
+		if (day < 10)
+			dayS = "0" + Integer.toString(day);
+		else
+			dayS = Integer.toString(day);
+		
+		if (month < 10)
+			monthS = "0" + Integer.toString(month);
+		else
+			monthS = Integer.toString(month);
+		
+		yearS = Integer.toString(year);
+		
+		return dayS + "." + monthS + "." + yearS;
 	}
 	
 	public int getDay() {

@@ -1,20 +1,20 @@
 1 Romania
 1.1 Arges
-1.1.1 City Campulung
-*Primarie/199.99/ping-pong, tenis/11.10.2017-10.10.2018
-*Primarie2/199.99/ping-pong, tenis/11.10.2017-10.10.2018
+1.1.1 City Campulung Muscel
+*Primarie/199.99/ping-pong,tenis/11.10.2017-10.10.2018
+*Primarie2/199.99/ping-pong,tenis/11.10.2017-10.10.2018
 1.1.2 City Pitesti
-*Primarie/19.99/ping-pong, teis/11.10.2018-19.10.2018
+*Primarie/19.99/ping-pong,teis/11.10.2018-19.10.2018
 1.2 Brasov
 1.2.1 City Brasov
-*Primarie/299.99/ping-pong2, tenis/11.10.2017-10.12.2018
-2 Republica_Moldova
+*Primarie/299.99/ping-pong2,tenis/11.10.2017-10.12.2018
+2 Republica Moldova
 2.1 Arges
 2.1.1 City Campulung
-*Primarie/199.99/ping-pong, tenis/11.10.2017-10.10.2018
-*Primarie2/199.99/ping-pong, tenis/11.10.2017-10.10.2018
+*Primarie/199.99/ping-pong,tenis/11.10.2017-10.10.2018
+*Primarie2/199.99/ping-pong,tenis/11.10.2017-10.10.2018
 2.1.2 City Pitesti
-*Primarie/19.99/ping-pong, teis/11.10.2018-19.10.2018
-2.2 Brasov
+*Primarie/19.99/ping-pong,teis/11.10.2018-19.10.2018
+2.2 Satu Mare
 2.2.1 City Brasov
-*Primarie/299.99/ping-pong2, tenis/11.10.2017-10.12.2018
+*Primarie/299.99/ping-pong2,tenis/11.01.2017-10.12.2018
