@@ -1,20 +1,50 @@
 1 Romania
 1.1 Arges
 1.1.1 City Campulung Muscel
-*Primarie/199.99/ping-pong,tenis/11.10.2017-10.10.2018
-*Primarie2/199.99/ping-pong,tenis/11.10.2017-10.10.2018
+*Primarie/200.00/ping-pong,tenis/01.03.2018-05.03.2018
+*Primarie/210.00/ping-pong/01.07.2018-05.08.2018
+*Casa de cultura/150.00/ping-pong,tenis,sah/01.03.2018-07.03.2018
+*Casa de cultura/123.50/ping-pong,tenis,sah/07.07.2018-07.08.2018
+*Casa de cultura/111.70/tenis,sah/10.10.2018-20.10.2018
+*Muzeul de istorie/67.99/conquiztador,sah/03.03.2018-07.03.2018
+*Muzeul de istorie/99.00/conquiztador,pictura/03.07.2018-15.07.2018
+*Muzeul de istorie/77.77/sah/01.04.2018-07.08.2018
 1.1.2 City Pitesti
-*Primarie/19.99/ping-pong,teis/11.10.2018-19.10.2018
+*Primarie/100.00/ping-pong,tenis/01.03.2018-05.03.2018
+*Primarie/220.00/sah/01.01.2018-05.09.2018
+*Primarie/290.00/conquiztador/11.07.2018-12.10.2018
+*Casa de cultura/142.00/ping-pong,tenis,sah/01.04.2018-07.05.2018
+*Casa de cultura/156.50/tenis,sah/07.07.2018-08.08.2018
+*Muzeul de istorie/70.00/conquiztador,sah/03.03.2018-07.03.2018
+*Muzeul de istorie/120.00/sah,pictura/10.08.2018-07.10.2018
 1.2 Brasov
 1.2.1 City Brasov
-*Primarie/99.99/ping-pong2,tenis/11.10.2017-10.12.2018
+*Primarie/230.00/conquiztador,tenis,sah,pictura/10.09.2018-12.10.2018
+*Casa de cultura/200.00/ping-pong,tenis,pictura,sah/01.01.2018-31.12.2018
+*Casa de cultura/180.50/tenis,sah/28.02.2018-05.05.2018
+*Muzeul de geografie/170.00/conquiztador,sah/03.03.2018-07.03.2018
 2 Republica Moldova
-2.1 Arges
-2.1.1 City Campulung
-*Primarie/199.99/ping-pong,tenis/11.10.2017-10.10.2018
-*Primarie2/199.99/ping-pong,tenis/11.10.2017-10.10.2018
-2.1.2 City Pitesti
-*Primarie/19.99/ping-pong,teis/11.10.2018-19.10.2018
-2.2 Satu Mare
-2.2.1 City Brasov
-*Primarie/299.99/ping-pong2,tenis/11.01.2017-10.12.2018
+2.1 Ialomita
+2.1.1 City Slobozia
+*Primarie/157/ping-pong,tenis/01.03.2018-05.03.2018
+*Primarie/440/ping-pong/01.07.2018-05.08.2018
+*Casa de cultura/78.00/ping-pong,tenis,sah/01.03.2018-07.03.2018
+*Casa de cultura/93.50/ping-pong,tenis,sah/07.07.2018-07.08.2018
+*Casa de cultura/110.70/tenis,sah/10.10.2018-20.10.2018
+*Muzeul de istorie/150.99/conquiztador,sah/03.03.2018-07.03.2018
+*Muzeul de istorie/43.00/conquiztador,pictura/03.07.2018-15.07.2018
+*Muzeul de istorie/177.77/sah/01.04.2018-07.08.2018
+2.1.2 City Stalpeni
+*Primarie/200.00/ping-pong,tenis/01.03.2018-05.03.2018
+*Primarie/250.00/sah/01.01.2018-05.09.2018
+*Primarie/120.00/conquiztador/11.07.2018-12.10.2018
+*Casa de cultura/49.00/ping-pong,tenis,sah/01.04.2018-07.05.2018
+*Casa de cultura/56.50/tenis,sah/07.07.2018-08.08.2018
+*Muzeul de istorie/77.00/conquiztador,sah/03.03.2018-07.03.2018
+*Muzeul de istorie/124.00/sah,pictura/10.08.2018-07.10.2018
+2.2 Constanta
+2.2.1 City Constanta
+*Primarie/195.00/conquiztador,tenis,sah,pictura/10.09.2018-12.10.2018
+*Casa de cultura/155.00/ping-pong,tenis,pictura,sah/01.01.2018-31.12.2018
+*Casa de cultura/80.50/tenis,sah/28.02.2018-05.05.2018
+*Muzeul de geografie/70.00/conquiztador,sah/03.03.2018-07.03.2018
