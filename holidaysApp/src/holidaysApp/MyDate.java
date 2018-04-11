@@ -37,6 +37,19 @@ public class MyDate {
 		
 		return dayS + "." + monthS + "." + yearS;
 	}
+
+	/*
+	 * Checks whether current date is before given as parameter day.
+	 */
+	public boolean isBefore(MyDate date) {
+		if (this.year < date.getYear())
+			return true;
+		if (this.month < date.getMonth())
+			return true;
+		if (this.day <= date.getDay())
+			return true;
+		return false;
+	}
 	
 	public int getDay() {
 		return day;

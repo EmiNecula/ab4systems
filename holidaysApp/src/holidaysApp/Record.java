@@ -50,6 +50,9 @@ public class Record {
 		return false;
 	}
 	
+	/*
+	 * Returns the duration of current record.
+	 */
 	public int duration() {
 		SimpleDateFormat myFormat = new SimpleDateFormat("dd.mm.yyyy");
 		
@@ -64,6 +67,16 @@ public class Record {
 		}
 
 		return -1;
+	}
+	
+	/*
+	 * Checks whether given as parameters period is contained in
+	 * current record's period.
+	 */
+	public boolean containsPeriod(MyDate startDate, MyDate endDate) {
+		if (this.startDate.isBefore(startDate) && endDate.isBefore(this.endDate))
+			return true;
+		return false;
 	}
 
 	public String getPlaceName() {
