@@ -1,7 +1,7 @@
 # ab4systems
 
 Presupuneri:
-Datele sunt citite dintr-un fisier de intrare primit ca parametru.
+Datele sunt citite din fisierul "test1.txt".
 Fisierul de intrare nu are linii goale, iar fiecare linie este scrisa corect (nu se face verificare input-ului).
 Formatul fisierului de intrare poate fi dedus usor din fisierul "test1.txt".
 
