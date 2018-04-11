@@ -55,8 +55,8 @@ public class DataBaseReader {
 		record = new Record(tokens[0],
 				Float.parseFloat(tokens[1]),
 				tokens[2].split(","),
-				Date.toDate(period[0]),
-				Date.toDate(period[1]));
+				MyDate.toDate(period[0]),
+				MyDate.toDate(period[1]));
 		
 		return record;
 	}

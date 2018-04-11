@@ -1,17 +1,21 @@
 package holidaysApp;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class Record {
 	private String placeName;
 	private float price;
 	private String[] activities;
-	private Date startDate;
-	private Date endDate;
+	private MyDate startDate;
+	private MyDate endDate;
 
 	public Record() {}
 	
-	public Record(String placeName, float price, String[] activities, Date startDate, Date endDate) {
+	public Record(String placeName, float price, String[] activities, MyDate startDate, MyDate endDate) {
 		this.placeName = placeName;
 		this.price = price;
 		this.activities = activities;
@@ -38,6 +42,29 @@ public class Record {
 				startDate.toString() + "-" +
 				endDate.toString();
 	}
+	
+	public boolean hasActivity(String activity) {
+		for (int i = 0; i < activities.length; ++i)
+			if (activity.equals(activities[i]))
+				return true;
+		return false;
+	}
+	
+	public int duration() {
+		SimpleDateFormat myFormat = new SimpleDateFormat("dd.mm.yyyy");
+		
+		try {
+			Date date1 = myFormat.parse(startDate.toString());
+			Date date2 = myFormat.parse(endDate.toString());
+			long diff = date2.getTime() - date1.getTime();
+			return (int) TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+		} catch (ParseException e) {
+			System.out.println("Date convert error!");
+			e.printStackTrace();
+		}
+
+		return -1;
+	}
 
 	public String getPlaceName() {
 		return placeName;
@@ -63,19 +90,19 @@ public class Record {
 		this.activities = activities;
 	}
 
-	public Date getStartDate() {
+	public MyDate getStartDate() {
 		return startDate;
 	}
 
-	public void setStartDate(Date startDate) {
+	public void setStartDate(MyDate startDate) {
 		this.startDate = startDate;
 	}
 
-	public Date getEndDate() {
+	public MyDate getEndDate() {
 		return endDate;
 	}
 
-	public void setEndDate(Date endDate) {
+	public void setEndDate(MyDate endDate) {
 		this.endDate = endDate;
 	}
 }

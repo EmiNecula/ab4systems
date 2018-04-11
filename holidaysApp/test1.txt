@@ -7,7 +7,7 @@
 *Primarie/19.99/ping-pong,teis/11.10.2018-19.10.2018
 1.2 Brasov
 1.2.1 City Brasov
-*Primarie/299.99/ping-pong2,tenis/11.10.2017-10.12.2018
+*Primarie/99.99/ping-pong2,tenis/11.10.2017-10.12.2018
 2 Republica Moldova
 2.1 Arges
 2.1.1 City Campulung

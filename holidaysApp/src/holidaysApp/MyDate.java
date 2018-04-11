@@ -1,20 +1,20 @@
 package holidaysApp;
 
-public class Date {
+public class MyDate {
 	private int day;
 	private int month;
 	private int year;
 	
-	public Date() {}
+	public MyDate() {}
 	
-	public Date(int day, int month, int year) {
+	public MyDate(int day, int month, int year) {
 		this.day = day;
 		this.month = month;
 		this.year = year;
 	}
 	
-	public static Date toDate(String s) {
-		return new Date(Integer.parseInt(s.substring(0, 2)),
+	public static MyDate toDate(String s) {
+		return new MyDate(Integer.parseInt(s.substring(0, 2)),
 				Integer.parseInt(s.substring(3, 5)),
 				Integer.parseInt(s.substring(6, 10)));
 	}
